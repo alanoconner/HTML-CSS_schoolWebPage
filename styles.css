@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+header{
+    background-image: url('../images/highschool.jpg');
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-position: center ;    
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main-name{
+    width: 17em;
+    margin-top: 2.5%;
+    position:absolute;
+    left: 10%;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;    
+    position: absolute;    
+    bottom: 2em;
+    left: 10%;
+    right: 10%;   
+    width: 80vw; 
+}
+
+#navbar li{
+    padding-left: 4em;
+    padding-right: 4em;
+    display: inline;    
+    color:azure;
+    font-size: 1.5vw;    
+}
+
+/*.news-block{
+    border: 2px solid darkgray;
+    width: 60%;
+    margin:auto;
+    padding: auto;
+    border-radius: 20px;
+    margin-top: 1em;
+
+}
+.news-block h3{
+    padding-left: 1em;
+    text-align: center;
+    font-size: 1.5pc;
+}
+
+.news-block li{
+    margin: 5px;
+    font-size: large;
+}
+.news-block li a{
+    text-decoration: none;
+    color: #000;
+}
+*/
+
+.campus-life-achievements{
+    
+    border: 2px solid #8B0D31;
+    height: 100vh;
+    background-color: #F4F4F4;    
+    background-position: center;
+    background-size:cover;  
+    position: relative;    
+}
+
+.campus-life-achievements h3{
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 4em;
+    left: 10%;
+    top: 1em;
+    color:#8B0D31;
+    
+}
+#logo2 {
+    position: absolute;
+    top: -6em;
+    left: 40em;
+    width: 50%;    
+    opacity: 0.2;
+}
+
+#about-us-text {    
+    border: 10px solid #DFB300;
+    padding: 2em;
+    position:absolute;
+    left: 15%;
+    top: 22%;
+    width: 30%;
+    max-height: 18%;    
+    font-family:Helvetica, sans-serif;
+    font-size: 1.3vw;
+    line-height: 1.35em;
+}
+
+.campus-life{ 
+
+    position: absolute;
+    float: left;
+    margin-left: 10%;
+    bottom: 4em;
+    width: 58%;
+    height: 200px;    
+    border-radius: 20px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/campus_life.jpeg');    
+    background-position: 50% 60%;
+    text-align: center; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+}
+
+.campus-life p {
+    color: azure;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 3em;
+    margin-top: 1.5em;
+}
+
+.achievements-block{ 
+    position:absolute;
+    right: 0;
+    bottom:4em;
+    margin-right: 10%;
+    width: 20%;
+    height: 200px;    
+    border-radius: 20px;
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/our_achievements.jpg');
+    background-position: 60% 60%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.achievements-block p{
+    color: azure;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 2.5vw;
+    margin-top: 65px;
+}
+
+.dorms-background{
+    border: 2px solid #8B0D31;
+    height: 100vh;
+    background-color: #F4F4F4;    
+    background-position: center;
+    background-size:cover;  
+    position: relative;    
+}
+
+.dorms-background h3{
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 4em;
+    left: 10%;
+    top: 2vh;
+    color:#8B0D31;
+}
+
+.dorms{
+    position: absolute;    
+    width: 80%;
+    height: 200px;
+    margin-top: 18em;
+    border-radius: 20px;
+    margin-left: 10%;
+    bottom: 4em;
+    text-align: center;    
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/dorms.jpeg');   
+    background-position: 50% 65%;    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dorms p{
+    color: azure;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 5em;
+    margin-top: 0.75em;
+}
+
+#dorms-text{
+    border: 10px solid #0D8B67;
+    padding: 1em;
+    position:absolute;
+    left: 15%;
+    width: 50%;
+    top: 22%;
+    font-family:Helvetica, sans-serif;
+    max-height: 10%;
+    line-height: 1.35em;
+    font-size: 1.3vw;
+}
+
+.programms-background{
+    border: 2px solid #8B0D31;
+    height: 100vh;
+    background-color: #F4F4F4;    
+    background-position: center;
+    background-size:cover;  
+    position: relative;    
+}
+
+.programms-background h3{
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-size: 4vw;
+    left: 3em;
+    top: 2em;
+    color:#8B0D31;
+}
+.programms-background p{
+    color: azure;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 3vw;
+    margin-top: 7.5vh;
+}
+
+#programs-text{
+    color: black;
+    border: 10px solid #DFB300;
+    padding: 2em;
+    position:absolute;
+    left: 15%;
+    width: 50%;
+    max-height: 15%;
+    top: 22%;
+    font-family:Helvetica, sans-serif;
+    font-size: 1.3vw;
+    line-height: 1.35em;
+}
+
+.tuition{
+    position:absolute;    
+    bottom: 8em;
+    margin-left: 10%;    
+    width: 25%;
+    height: 200px;    
+    border-radius: 20px;
+    text-align: center;    
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/tuition.jpeg');   
+    background-position: center;    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.special-programms{
+    position: absolute;
+    left: 37.5%;
+    bottom: 8em;      
+    width: 25%;
+    height: 200px;    
+    border-radius: 20px;
+    text-align: center;    
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../images/special_benefits.jpeg');   
+    background-position: right;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.scholarship{
+    position: absolute;
+    right: 10%;
+    bottom: 8em;       
+    width: 25%;
+    height: 200px;    
+    border-radius: 20px;
+    text-align: center;    
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ), url('../images/scholarship.jpeg');   
+    background-position: top;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+}
+  
+.footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+}
+
+
