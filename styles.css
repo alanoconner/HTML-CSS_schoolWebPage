@@ -96,11 +96,11 @@ header{
 
 #about-us-text {    
     border: 10px solid #DFB300;
-    padding: 2em;
+    padding: 2.3em;
     position:absolute;
     left: 15%;
     top: 22%;
-    width: 30%;
+    width: 32%;
     max-height: 18%;    
     font-family:Helvetica, sans-serif;
     font-size: 1.3vw;
@@ -142,7 +142,6 @@ header{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/our_achievements.jpg');
     background-position: 60% 60%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
 }
 
 .achievements-block p{
@@ -166,7 +165,7 @@ header{
     position: absolute;
     font-family: Helvetica, sans-serif;
     font-size: 4em;
-    left: 10%;
+    left: 32%;
     top: 2vh;
     color:#8B0D31;
 }
@@ -193,13 +192,29 @@ header{
     margin-top: 0.75em;
 }
 
+#dorms-line{
+    width: 50%;
+    border-top: 3px solid #0D8B67 ;
+    left: 25%;
+    top: 30%;
+    position: absolute;
+}
+
+.piechart{
+    position: absolute;
+    top: 45%;
+    left: 43%;
+}
+
+
 #dorms-text{
-    border: 10px solid #0D8B67;
+    
+    text-align: center;
     padding: 1em;
     position:absolute;
-    left: 15%;
-    width: 50%;
-    top: 22%;
+    left: 13%;
+    width: 70%;
+    top: 20%;
     font-family:Helvetica, sans-serif;
     max-height: 10%;
     line-height: 1.35em;
@@ -218,9 +233,9 @@ header{
 .programms-background h3{
     position: absolute;
     font-family: Helvetica, sans-serif;
-    font-size: 4vw;
-    left: 3em;
-    top: 2em;
+    font-size: 3.5vw;
+    left: 38.5vw;
+    top: 1em;
     color:#8B0D31;
 }
 .programms-background p{
@@ -233,21 +248,36 @@ header{
 
 #programs-text{
     color: black;
-    border: 10px solid #DFB300;
+    /*border: 10px solid #DFB300;*/
+    text-align: center;
     padding: 2em;
     position:absolute;
-    left: 15%;
-    width: 50%;
+    left: 17%;
+    width: 60%;
     max-height: 15%;
-    top: 22%;
+    top: 8%;
     font-family:Helvetica, sans-serif;
     font-size: 1.3vw;
     line-height: 1.35em;
 }
 
+#programs-line{
+    width: 50%;
+    border-top: 3px solid #DFB300 ;
+    left: 25%;
+    top: 30%;
+    position: absolute;
+}
+
+.programs-content{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
 .tuition{
     position:absolute;    
-    bottom: 8em;
+    bottom: 2em;
     margin-left: 10%;    
     width: 25%;
     height: 200px;    
@@ -261,7 +291,7 @@ header{
 .special-programms{
     position: absolute;
     left: 37.5%;
-    bottom: 8em;      
+    bottom: 2em;      
     width: 25%;
     height: 200px;    
     border-radius: 20px;
@@ -274,7 +304,7 @@ header{
 .scholarship{
     position: absolute;
     right: 10%;
-    bottom: 8em;       
+    bottom: 2em;       
     width: 25%;
     height: 200px;    
     border-radius: 20px;
